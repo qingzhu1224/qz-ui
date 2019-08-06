@@ -11,7 +11,7 @@
     "vv-ui",
     "theme"
   ],
-  "author": "monkeywang",
+  "author": "yanqingzhu",
   "license": "MIT",
   "devDependencies": {
     "gulp": "^3.9.1",
