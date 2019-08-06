@@ -19,18 +19,6 @@ module.exports = {
         .tap(options => {
           // 修改它的选项...
           return options
-        });
-        config.module
-        .plugin('stylelint')
-        .use('stylelint-webpack-plugin')
-        .tap(() => {
-          return [
-            {
-              configFile: '.stylelintrc',
-              files: ['packages/**/*.scss'],
-              emitErrors: true
-            }
-          ];
         })
   
   },
