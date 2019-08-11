@@ -2,7 +2,7 @@
   <transition name="w-zoom-in-center">
     <div class="w__tag" :class="'w__tag--'+color">
       <span class="w__tag--desc"><slot></slot></span>
-      <i class="w-icon-close2 w__tag--close" v-if="closable" @click="hiddenTag">55</i>
+      <i class="w-icon-close2 w__tag--close" v-if="closable" @click="hiddenTag"></i>
     </div>
   </transition>
 </template>
