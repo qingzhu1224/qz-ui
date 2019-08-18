@@ -1,7 +1,8 @@
 <template>
-  <div id="app">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+   <div>
+        <!-- 留坑，非常重要 -->
+        <router-view></router-view>
+    </div>
 </template>
 
 <script>
@@ -15,8 +16,9 @@ export default {
 }
 </script>
 
-<style>
-#app {
+<style <style lang="less">
+@import url('./assets/less/index.less');
+  #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
