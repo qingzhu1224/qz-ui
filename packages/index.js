@@ -1,8 +1,10 @@
 
 import WTag from './tag/index'
+import Skeleton from './skeleton/index'
 
 const components = [
-  WTag
+  WTag,
+  Skeleton
 ]
 
 const install = function(Vue) {
@@ -16,5 +18,6 @@ if (typeof window !== 'undefined' && window.Vue) {
 
 export default {
   install,
-  WTag
+  WTag,
+  Skeleton
 }

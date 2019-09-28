@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <mainSkeleton v-if="!init"></mainSkeleton>
-    <div v-else>
+    <div>
       <mainHeader></mainHeader>
       <div class="container" v-if="!isIndex">
         <sideNav class="nav"></sideNav>
